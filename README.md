@@ -10,16 +10,16 @@ In MacOS, search for and open the "terminal" application before installing the t
 
 ### Steps
 
-<details><summary>**(Mac users only) Install brew**</summary>This tool will help to manage the other tools that we will install in future
+<details><summary>(Mac users only) Install brew</summary>This tool will help to manage the other tools that we will install in future
 <br />`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`</details>
 
-<details><summary>**Install git**</summary>This tool will help track our code changes and allow us to collaborate on code with others
+<details><summary>Install git</summary>This tool will help track our code changes and allow us to collaborate on code with others
 <br />`brew install git`</details>
 
-<details><summary>**Install node**</summary>This tool allows us to develop JavaScript applications
+<details><summary>Install node</summary>This tool allows us to develop JavaScript applications
 <br />`brew install node`</details>
 
-<details><summary>**Install visual studio code**</summary>This is for viewing and editing code files
+<details><summary>Install visual studio code</summary>This is for viewing and editing code files
 <br />`brew install --cask visual-studio-code`</details>
 
 In Windows, you can use `winget` on the command prompt (Windows 11 onwards), or download and install the tools manually.
@@ -30,15 +30,15 @@ In Windows, you can use `winget` on the command prompt (Windows 11 onwards), or 
 
 ### Commands to Run
 
-<details><summary>**Create a directory called workspace and navigate to it**</summary>
+<details><summary>Create a directory called workspace and navigate to it</summary>
 <br />`mkdir ~/workspace && cd ~/workspace`</details>
-<details><summary>**Create a new web application (called 'hello-world') based on an existing React & Typescript template**</summary>
+<details><summary>Create a new web application (called 'hello-world') based on an existing React & Typescript template</summary>
 <br />`npm create vite@latest hello-world --template react-ts`</details>
-<details><summary>**Navigate to the newly created hello-world project folder**</summary>
+<details><summary>Navigate to the newly created hello-world project folder</summary>
 <br />`cd hello-world`</details>
-<details><summary>**Install required dependencies for the application to run**</summary>
+<details><summary>Install required dependencies for the application to run</summary>
 <br />`npm install`</details>
-<details><summary>**Start the local dev server**</summary>
+<details><summary>Start the local dev server</summary>
 <br />`npm run dev`</details>
 
 Now you will be able to view the project locally in the browser (as per the instructions in the `npm run dev` command). You will also be able to open the files in Visual Studio Code to view the code.
@@ -49,10 +49,10 @@ GitHub is an online platform that lets you upload your git repositories for back
 
 ### Steps
 
-<details><summary>**Create account on GitHub**</summary>
+<details><summary>Create account on GitHub</summary>
 https://github.com/join</details>
 
-<details><summary>**Create token on GitHub**</summary>
+<details><summary>Create token on GitHub</summary>
 Refer to https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token</details>
 
 ## Commit Changes and Push to GitHub
@@ -61,15 +61,15 @@ This will allow you to backup and track code changes and more.
 
 ### Commands to run
 
-<details><summary>**Initialize a new git repository**</summary>
+<details><summary>Initialize a new git repository</summary>
 <br />`git init`</details>
-<details><summary>**Stage all newly created files**</summary>
+<details><summary>Stage all newly created files</summary>
 <br />`git add .`</details>
-<details><summary>**Commit the staged files to the local git repository**</summary>
+<details><summary>Commit the staged files to the local git repository</summary>
 <br />`git commit -m "initial commit"`</details>
-<details><summary>**Configure a remote git repository destination**</summary>
+<details><summary>Configure a remote git repository destination</summary>
 <br />`git remote add origin https://github.com/<your-github-username>/hello-world.git`</details>
-<details><summary>**Sync the local git repository with GitHub**</summary>
+<details><summary>Sync the local git repository with GitHub</summary>
 <br />`git push --set-upstream origin main`</details>
 
 Congrats! You have just setup your first repository on GitHub.
