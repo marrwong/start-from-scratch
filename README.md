@@ -41,7 +41,7 @@ In Windows, you can use `winget` on the command prompt (Windows 11 onwards), or 
 <details><summary>Start the local dev server</summary>
 <br />`npm run dev`</details>
 
-Now you will be able to view the project locally in the browser (as per the instructions in the `npm run dev` command). You will also be able to open the files in Visual Studio Code to view the code.
+Now you will be able to view the project locally your web browser (Chrome, Edge, Safari, Firefox etc), as per the instructions in the `npm run dev` command). You will also be able to open the files in Visual Studio Code to view the code.
 
 ## Create and Setup GitHub Account
 
